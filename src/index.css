@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+/* Design tokens from the approved design system */
+@theme {
+  --color-red: #B3121B;
+  --color-frontline: #C8102E;
+  --color-deepred: #7A0D12;
+  --color-sky: #4A8FD8;
+  --color-navy: #1F4E86;
+  --color-pale: #EAF2FB;
+  --color-mist: #F6F8FB;
+  --color-gold: #E4B849;
+  --color-butter: #FFF4D6;
+  --color-ink: #141310;
+  --color-slate: #5B6472;
+  --color-line: #DDE1E6;
+
+  --font-display: "Anton", sans-serif;
+  --font-sub: "Antonio Variable", "Antonio", sans-serif;
+  --font-sans: "DM Sans Variable", "DM Sans", system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; --page-zoom: 1; }
+
+/* Desktop: render the whole layout at 80%, like browser zoom, so 100% looks right.
+   Full-height sections are divided by the zoom so they still fill the viewport. */
+@media (min-width: 1024px) {
+  html { --page-zoom: 0.8; zoom: var(--page-zoom); }
+  .min-h-screen { min-height: calc(100vh / var(--page-zoom)); }
+}
+body { margin: 0; font-family: var(--font-sans); color: var(--color-ink); background: var(--color-pale); }
+
+/* Blue grid backgrounds */
+.bg-sky-grid {
+  background-color: var(--color-sky);
+  background-image:
+    linear-gradient(rgba(255,255,255,0.32) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.32) 1px, transparent 1px),
+    linear-gradient(180deg, #4A8FD8 0%, #A9CCF0 55%, #EAF2FB 100%);
+  background-size: 48px 48px, 48px 48px, 100% 100%;
+}
+.bg-pale-grid {
+  background-color: var(--color-pale);
+  background-image:
+    linear-gradient(rgba(74,143,216,0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(74,143,216,0.16) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.bg-blue-grid {
+  background-color: var(--color-sky);
+  background-image:
+    linear-gradient(rgba(255,255,255,0.25) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.25) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+.bg-card-grid {
+  background-color: var(--color-red);
+  background-image:
+    linear-gradient(rgba(255,255,255,0.22) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.22) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.09) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+}
+
+/* Hide scrollbar on the swipe strip */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Typing caret */
+@keyframes blink { 50% { opacity: 0; } }
+.caret { display: inline-block; width: 2px; background: currentColor; animation: blink 1s steps(1) infinite; vertical-align: -0.15em; margin-left: 2px; }
+
+/* 3D flip helpers */
+.flip-scene { perspective: 1600px; }
+.flip-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 700ms cubic-bezier(.2,.7,.2,1); }
+.flip-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; transition: visibility 0s linear 350ms; }
+.flip-back { transform: rotateY(180deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .caret { animation: none; }
+  .flip-inner, .flip-face { transition: none !important; }
+  * { transition-duration: 0ms !important; }
+}
