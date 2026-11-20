@@ -3,7 +3,7 @@
 export default function Sticker({ name, width = 100, rotate = 0, className = '', hideOnMobile = true }) {
   return (
     <img
-      src={`/images/stickers/${name}.webp`}
+      src={`images/stickers/${name}.webp`}
       alt=""
       aria-hidden="true"
       loading="lazy"

@@ -54,9 +54,9 @@ export const folders = [
     skills: ['Publication layout', 'Editorial design', 'Graphic design', 'Live layout', 'Figma', 'Canva'],
     cta: 'Open Layout', to: '#forefront',
     files: [
-      { name: 'Luto Newsletter', kind: 'NEWSLETTER', img: '/images/work/luto-cover.webp', to: '#luto' },
-      { name: 'Kontesera E-Magazine', kind: 'E-MAGAZINE', img: '/images/work/kontesera-cover.webp', to: '#kontesera' },
-      { name: 'Templates & promos', kind: 'TEMPLATES', img: '/images/work/tmpl-news.webp', to: '#templates' },
+      { name: 'Luto Newsletter', kind: 'NEWSLETTER', img: 'images/work/luto-cover.webp', to: '#luto' },
+      { name: 'Kontesera E-Magazine', kind: 'E-MAGAZINE', img: 'images/work/kontesera-cover.webp', to: '#kontesera' },
+      { name: 'Templates & promos', kind: 'TEMPLATES', img: 'images/work/tmpl-news.webp', to: '#templates' },
     ],
   },
   {
@@ -65,7 +65,7 @@ export const folders = [
     skills: ['HTML', 'CSS', 'JavaScript', 'Firebase', 'GitHub'],
     cta: null, to: '#development',
     files: [
-      { name: 'The Frontline', kind: 'WEB APP', img: '/images/frontline-logo.webp', fit: 'contain', to: '#development' },
+      { name: 'The Frontline', kind: 'WEB APP', img: 'images/frontline-logo.webp', fit: 'contain', to: '#development' },
       { name: 'Dashboard', kind: 'SCREEN', big: 'DASHBOARD', to: '#development' },
       { name: 'Articles editor', kind: 'SCREEN', big: 'EDITOR', to: '#development' },
       { name: 'Approval Queue', kind: 'SCREEN', big: 'QUEUE', to: '#development' },
@@ -96,14 +96,14 @@ export const frontline = {
     ['USERS', 'Correspondents, editorial board, adviser, readers'],
     ['STACK', 'HTML, CSS, JavaScript, Firebase'],
   ],
-  // Replace src with your screenshot paths, e.g. '/images/frontline/dashboard.webp'
+  // Replace src with your screenshot paths, e.g. 'images/frontline/dashboard.webp'
   screens: [
-    { name: 'Login', slug: 'login', src: '/images/frontline/login.webp' },
-    { name: 'Dashboard', slug: 'dashboard', src: '/images/frontline/dashboard.webp' },
-    { name: 'Articles editor', slug: 'articles', src: '/images/frontline/editor-full.webp' },
-    { name: 'Approval Queue', slug: 'approval-queue', src: '/images/frontline/approval-queue.webp' },
-    { name: 'Public portal', slug: 'portal', src: '/images/frontline/portal.webp' },
-    { name: 'Archive', slug: 'archive', src: '/images/frontline/archive.webp' },
+    { name: 'Login', slug: 'login', src: 'images/frontline/login.webp' },
+    { name: 'Dashboard', slug: 'dashboard', src: 'images/frontline/dashboard.webp' },
+    { name: 'Articles editor', slug: 'articles', src: 'images/frontline/editor-full.webp' },
+    { name: 'Approval Queue', slug: 'approval-queue', src: 'images/frontline/approval-queue.webp' },
+    { name: 'Public portal', slug: 'portal', src: 'images/frontline/portal.webp' },
+    { name: 'Archive', slug: 'archive', src: 'images/frontline/archive.webp' },
   ],
 }
 
@@ -119,19 +119,19 @@ export const forefront = {
     heyzine: 'https://heyzine.com/flip-book/f7b85def52.html',
   },
   board: [
-    { title: 'News template', src: '/images/work/tmpl-news.webp', ratio: '4 / 5', rot: -3 },
-    { title: 'In-depth template', src: '/images/work/tmpl-indepth.webp', ratio: '4 / 5', rot: 2 },
-    { title: 'Column template', src: '/images/work/tmpl-column.webp', ratio: '4 / 5', rot: -1 },
-    { title: 'Balita template', src: '/images/work/tmpl-balita.webp', ratio: '4 / 5', rot: 3 },
-    { title: 'cancelledt era promo', src: '/images/work/promo-cancelledt.webp', ratio: '1 / 1', rot: -2 },
-    { title: 'Siklab 2024 promo', src: '/images/work/promo-siklab.webp', ratio: '1 / 1', rot: 2 },
-    { title: 'What your favorite coffee says about you', src: '/images/work/pub-coffee.webp', ratio: '4 / 5', rot: -2 },
-    { title: 'National Heroes Day', src: '/images/work/pub-heroes-day.webp', ratio: '4 / 5', rot: 3 },
-    { title: 'Bonifacio Day', src: '/images/work/pub-bonifacio-day.webp', ratio: '1 / 1', rot: -1 },
-    { title: 'Duyog literary folio promo', src: '/images/work/promo-duyog.webp', ratio: '1 / 1', rot: 2 },
-    { title: 'GC overpayment news', src: '/images/work/news-overpayment.webp', ratio: '4 / 5', rot: -3 },
-    { title: 'Back on Campus news feature', src: '/images/work/feature-backlog.webp', ratio: '3 / 2', rot: 1 },
-    { title: 'The Version of Me That Never Was', src: '/images/work/lit-never-was.webp', ratio: '1200 / 1006', rot: -2 },
+    { title: 'News template', src: 'images/work/tmpl-news.webp', ratio: '4 / 5', rot: -3 },
+    { title: 'In-depth template', src: 'images/work/tmpl-indepth.webp', ratio: '4 / 5', rot: 2 },
+    { title: 'Column template', src: 'images/work/tmpl-column.webp', ratio: '4 / 5', rot: -1 },
+    { title: 'Balita template', src: 'images/work/tmpl-balita.webp', ratio: '4 / 5', rot: 3 },
+    { title: 'cancelledt era promo', src: 'images/work/promo-cancelledt.webp', ratio: '1 / 1', rot: -2 },
+    { title: 'Siklab 2024 promo', src: 'images/work/promo-siklab.webp', ratio: '1 / 1', rot: 2 },
+    { title: 'What your favorite coffee says about you', src: 'images/work/pub-coffee.webp', ratio: '4 / 5', rot: -2 },
+    { title: 'National Heroes Day', src: 'images/work/pub-heroes-day.webp', ratio: '4 / 5', rot: 3 },
+    { title: 'Bonifacio Day', src: 'images/work/pub-bonifacio-day.webp', ratio: '1 / 1', rot: -1 },
+    { title: 'Duyog literary folio promo', src: 'images/work/promo-duyog.webp', ratio: '1 / 1', rot: 2 },
+    { title: 'GC overpayment news', src: 'images/work/news-overpayment.webp', ratio: '4 / 5', rot: -3 },
+    { title: 'Back on Campus news feature', src: 'images/work/feature-backlog.webp', ratio: '3 / 2', rot: 1 },
+    { title: 'The Version of Me That Never Was', src: 'images/work/lit-never-was.webp', ratio: '1200 / 1006', rot: -2 },
   ],
 }
 
@@ -213,7 +213,7 @@ export const caseStudy = {
   wireframes: [
     {
       screen: 'Articles editor',
-      img: '/images/frontline/wf-editor.webp', // SE package Fig. 8
+      img: 'images/frontline/wf-editor.webp', // SE package Fig. 8
       source: 'WIREFRAME · FIG. 8',
       elements: [
         { el: 'Section tags with suggestions', why: 'Stories land in the right section.' },
@@ -223,7 +223,7 @@ export const caseStudy = {
     },
     {
       screen: 'Approval Queue',
-      img: '/images/frontline/approval-queue.webp', // no wireframe exists; final screen with a sample entry
+      img: 'images/frontline/approval-queue.webp', // no wireframe exists; final screen with a sample entry
       source: 'FINAL UI',
       elements: [
         { el: 'Queue list with search', why: 'One place to work instead of many channels.' },
@@ -256,7 +256,7 @@ export const caseStudy = {
       t: 'Articles editor',
       before: 'Basic metadata fields.',
       after: 'Tag suggestions, font size control, a fixed cutline field and Preview.',
-      beforeImg: '/images/frontline/wf-editor.webp', afterImg: '/images/frontline/editor-full.webp',
+      beforeImg: 'images/frontline/wf-editor.webp', afterImg: 'images/frontline/editor-full.webp',
     },
     {
       t: 'Approval flow',
@@ -268,11 +268,11 @@ export const caseStudy = {
     },
   ],
   screens: [
-    { name: 'Login', cap: 'One sign-in for every role', img: '/images/frontline/login.webp' },
-    { name: 'Public portal', cap: 'Published work by section', img: '/images/frontline/portal.webp' },
-    { name: 'Dashboard', cap: 'Overview for staff', img: '/images/frontline/dashboard.webp' },
-    { name: 'Articles editor', cap: 'Write, tag, preview', img: '/images/frontline/editor.webp' },
-    { name: 'Approval Queue', cap: 'One place for review (sample entry)', img: '/images/frontline/approval-queue.webp' },
+    { name: 'Login', cap: 'One sign-in for every role', img: 'images/frontline/login.webp' },
+    { name: 'Public portal', cap: 'Published work by section', img: 'images/frontline/portal.webp' },
+    { name: 'Dashboard', cap: 'Overview for staff', img: 'images/frontline/dashboard.webp' },
+    { name: 'Articles editor', cap: 'Write, tag, preview', img: 'images/frontline/editor.webp' },
+    { name: 'Approval Queue', cap: 'One place for review (sample entry)', img: 'images/frontline/approval-queue.webp' },
   ],
   prototype: {
     text: 'The prototype is the working web app, built with HTML, CSS, JavaScript and Firebase.',

@@ -35,7 +35,7 @@ export default function CaseStudy() {
       <div className="relative mx-auto max-w-[1440px] px-5 pb-20 pt-10 md:px-16">
         <PartLabel part="CASE STUDY" detail="THE FRONTLINE" />
         <header className="mt-5 border-y border-b-[3px] border-ink py-4 text-center">
-          <img src="/images/frontline-logo.webp" alt="The Frontline: CMS and digital archive for campus journalism" className="mx-auto block w-[560px] max-w-full" />
+          <img src="images/frontline-logo.webp" alt="The Frontline: CMS and digital archive for campus journalism" className="mx-auto block w-[560px] max-w-full" />
         </header>
 
         {/* 01 · PROJECT OVERVIEW */}

@@ -15,7 +15,7 @@ export default function Frontline() {
             <PartLabel part="PROJECTS" detail="DEVELOPMENT" />
             <div className="mt-7 flex flex-wrap items-end justify-between gap-8">
               <h1 className="m-0">
-                <img src="/images/frontline-logo.webp" alt="The Frontline: CMS and digital archive for campus journalism" className="block w-[480px] max-w-full" />
+                <img src="images/frontline-logo.webp" alt="The Frontline: CMS and digital archive for campus journalism" className="block w-[480px] max-w-full" />
               </h1>
               <p className="m-0 mb-[18px] max-w-[360px] text-lg leading-normal">{frontline.tagline}</p>
             </div>

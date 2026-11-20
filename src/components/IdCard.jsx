@@ -62,7 +62,7 @@ export default function IdCard({ side = 'front', onFlipAttempt }) {
               <span>PORTFOLIO PASS</span>
             </span>
             <span className="absolute inset-x-0 top-[54px] text-center font-display text-[140px] leading-[1.05] text-mist">SAMMI</span>
-            <img src="/images/portrait.webp" alt="Portrait of Samantha Suñga" className="absolute bottom-[116px] left-[62px] block w-[290px]" />
+            <img src="images/portrait.webp" alt="Portrait of Samantha Suñga" className="absolute bottom-[116px] left-[62px] block w-[290px]" />
             <svg className="absolute left-[18px] top-[246px] -rotate-12" width="56" height="56" viewBox="0 0 54 54" aria-hidden="true">
               <path d="M27 2l6.5 16.5L51 20l-13.5 11.5L42 50 27 40 12 50l4.5-18.5L3 20l17.5-1.5z" fill="#E4B849" stroke="#141310" strokeWidth="1.5" />
             </svg>

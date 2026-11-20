@@ -66,7 +66,7 @@ export default function BizCard({ side = 'front' }) {
             ))}
           </div>
           <div className="absolute right-[34px] top-[105px] flex w-[150px] flex-col items-center rounded-xl bg-white p-2.5 text-center text-ink">
-            <img src="/images/github-qr.svg" alt="Scan to open Samantha's GitHub profile" className="block h-[126px] w-[126px]" />
+            <img src="images/github-qr.svg" alt="Scan to open Samantha's GitHub profile" className="block h-[126px] w-[126px]" />
             <span className="mt-1 text-[10px] font-bold tracking-[0.08em]">SCAN QR FOR GITHUB</span>
           </div>
         </div>
