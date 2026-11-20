@@ -7,7 +7,7 @@ export const profile = {
   nickname: 'SAMMI',
   oneLiner: 'Computer Science student and Head Layout Artist of The Forefront.',
   intro:
-    "A self-taught designer who somehow ended up leading a team of artists while keeping up with a ComSci degree. No formal training, just years of trial, error, and fixing layouts at 2am until things finally clicked. If you’re looking for a design intern who will care a little too much about your element placement, my contacts are right below.",
+    "A self-taught designer who somehow ended up leading a team of artists while keeping up with her ComSci degree. No formal training, really. Just years of trial and error, not to mention revising layouts at 2am until things finally felt right. If you’re looking for a design intern who will care a little too much about your element placement, my contacts are right below.",
   email: 'samanthasunga.work@gmail.com',
   location: 'Olongapo City, Philippines',
   github: 'https://github.com/max-sng',
@@ -16,7 +16,7 @@ export const profile = {
 export const aboutCards = [
   {
     title: 'EDUCATION',
-    body: "3rd-year BS Computer Science at Gordon College, expected 2028. Dean's Lister, Top 18 on the BSCS Dean's List.",
+    body: "3rd-year BS Computer Science at Gordon College, expected 2028.",
   },
   {
     title: 'PUBLICATION',
