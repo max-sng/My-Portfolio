@@ -10,7 +10,8 @@ export default function HeyzineBook({ url, title, tone = 'light' }) {
           src={url}
           title={`${title} flipbook`}
           allowFullScreen
-          loading="lazy"
+          allow="autoplay; fullscreen; clipboard-write"
+          scrolling="no"
           className="block h-[360px] w-full border-0 sm:h-[460px] lg:h-[520px]"
         />
       </div>
