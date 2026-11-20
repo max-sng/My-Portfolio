@@ -1,7 +1,7 @@
 import { ExternalLink } from 'lucide-react'
 
-/** Embeds a Heyzine flipbook with a fallback link to open it full screen. */
-export default function HeyzineBook({ url, title, tone = 'light' }) {
+/** Embeds a FlipHTML5 flipbook with a fallback link to open it full screen. */
+export default function Flipbook({ url, title, tone = 'light' }) {
   const ink = tone === 'dark' ? 'text-white' : 'text-ink'
   return (
     <div className="w-full">
@@ -16,7 +16,7 @@ export default function HeyzineBook({ url, title, tone = 'light' }) {
         />
       </div>
       <a href={url} target="_blank" rel="noopener" className={`mt-3.5 inline-flex items-center gap-2 text-sm font-bold underline-offset-4 hover:underline ${ink}`}>
-        Open on Heyzine <ExternalLink size={14} aria-hidden="true" />
+        Open on FlipHTML5 <ExternalLink size={14} aria-hidden="true" />
       </a>
     </div>
   )

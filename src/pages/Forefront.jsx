@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Sticker from '../components/Sticker.jsx'
-import HeyzineBook from '../components/HeyzineBook.jsx'
+import Flipbook from '../components/Flipbook.jsx'
 import Lightbox from '../components/Lightbox.jsx'
 import PartLabel from '../components/PartLabel.jsx'
 import { forefront } from '../data/content.js'
@@ -69,7 +69,7 @@ export default function Forefront() {
               <Award {...luto.award} dark />
             </div>
             <div className="min-w-0 flex-[999_1_640px]">
-              <HeyzineBook url={luto.heyzine} title="Luto Newsletter" tone="dark" />
+              <Flipbook url={luto.flipbook} title="Luto Newsletter" tone="dark" />
             </div>
           </div>
         </section>
@@ -78,7 +78,7 @@ export default function Forefront() {
         <section id="kontesera" className="scroll-mt-24 bg-white">
           <div className="mx-auto flex max-w-[1440px] flex-wrap-reverse items-center gap-10 px-5 py-[72px] md:px-16">
             <div className="min-w-0 flex-[999_1_640px] rounded-3xl bg-pale p-4 md:p-6">
-              <HeyzineBook url={kontesera.heyzine} title="Kontesera E-Magazine" />
+              <Flipbook url={kontesera.flipbook} title="Kontesera E-Magazine" />
             </div>
             <div className="min-w-0 flex-[1_1_340px]">
               <div className="text-xs font-bold tracking-[0.14em] text-sky">PROJECT 02 · E-MAGAZINE</div>

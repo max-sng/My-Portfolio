@@ -111,12 +111,12 @@ export const forefront = {
   luto: {
     title: 'LUTO NEWSLETTER',
     award: { rank: '8th', text: 'Most Outstanding Newsletter in Luzon · AOCPA 2025' },
-    heyzine: 'https://heyzine.com/flip-book/174e9b64fb.html',
+    flipbook: 'https://online.fliphtml5.com/TheFOREFRONT/THE-FOREFRONT-LUTO-NEWSLETTER/',
   },
   kontesera: {
     title: 'KONTESERA E-MAGAZINE',
     award: { rank: '2nd', text: 'Best News Page in Luzon · YJPFC 2026' },
-    heyzine: 'https://heyzine.com/flip-book/f7b85def52.html',
+    flipbook: 'https://online.fliphtml5.com/TheFOREFRONT/KONTESERA_MAG/',
   },
   board: [
     { title: 'News template', src: 'images/work/tmpl-news.webp', ratio: '4 / 5', rot: -3 },
