@@ -125,6 +125,13 @@ export const forefront = {
     { title: 'Balita template', src: '/images/work/tmpl-balita.webp', ratio: '4 / 5', rot: 3 },
     { title: 'cancelledt era promo', src: '/images/work/promo-cancelledt.webp', ratio: '1 / 1', rot: -2 },
     { title: 'Siklab 2024 promo', src: '/images/work/promo-siklab.webp', ratio: '1 / 1', rot: 2 },
+    { title: 'What your favorite coffee says about you', src: '/images/work/pub-coffee.webp', ratio: '4 / 5', rot: -2 },
+    { title: 'National Heroes Day', src: '/images/work/pub-heroes-day.webp', ratio: '4 / 5', rot: 3 },
+    { title: 'Bonifacio Day', src: '/images/work/pub-bonifacio-day.webp', ratio: '1 / 1', rot: -1 },
+    { title: 'Duyog literary folio promo', src: '/images/work/promo-duyog.webp', ratio: '1 / 1', rot: 2 },
+    { title: 'GC overpayment news', src: '/images/work/news-overpayment.webp', ratio: '4 / 5', rot: -3 },
+    { title: 'Back on Campus news feature', src: '/images/work/feature-backlog.webp', ratio: '3 / 2', rot: 1 },
+    { title: 'The Version of Me That Never Was', src: '/images/work/lit-never-was.webp', ratio: '1200 / 1006', rot: -2 },
   ],
 }
 
